@@ -85,7 +85,6 @@ class BaseRepository
     {
 
         return $this->model->where('slug', $slug)->first();
-
     }
 
     /**
@@ -201,5 +200,4 @@ class BaseRepository
 
         return true;
     }
-
 }
